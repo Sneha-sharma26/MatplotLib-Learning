@@ -1,0 +1,25 @@
+plt.axvline(value)   => To divide the histogram using a line to categorize data
+plt.bar(x,y)         => to plot a bar graph using list of values named as x & y
+plt.boxplot()        => to plot a box/whisker plot
+plt.fill_between()   => to fill color between plotted graph 
+plt.grid()     => to show grid on the histogram
+plt.hist()     => to plot a histogram using list of values named as x
+plt.legend()   => To put label on the graph used with attribute 'label' in the plt.bar() 
+plt.plot()     => To plot a linear plot
+plt.pie()      => to plot a pie chart using list of values named as x
+plt.savefig()  => to save the plot img externally. Arg = (filename)
+plt.scatter()  => to plot a scatter plot
+plt.show()     => to visualize the graph
+plt.stem()     => to plot a stem plot
+plt.stackplot()     => to plot a stack plot showing multipole plots in a plot
+plt.step()          => to plot a step plot
+plt.subplot()       => to plot a subplotd in a plot. Args = (nrows, ncols, index)
+plt.text()              => to add add at an arbitrary location. Args: (x, y, "text")
+plt.title("Title")      => To give title to the graph
+plt.xlabel("Lang")      => To give label to x-axis
+plt.ylabel("Popular")   => To give label to y-axis
+
+
+## To plot a circle
+cr = plt.Circle()   => to make a circle having center coordinates, radius and other attributes
+plt.gca().add_artist(cr)
